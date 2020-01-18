@@ -59,7 +59,9 @@ main {
   }
   .box {
     float: none;
-    margin: 20px;
+    margin: 20px auto;
+  }
+  .box:last-child {
+    margin-right: auto;
   }
 }
-
