@@ -55,11 +55,21 @@ main {
 }
 @media screen and (max-width: 768px) {
   main {
-    width: 100%;
+    width: 90%;
   }
   .box {
     float: none;
     margin: 20px auto;
+    width: 100%;
+  }
+  .box_img1 {
+    width: 100%;
+  }
+  .box_img2 {
+    width: 100%;
+  }
+  .box_img3 {
+    width: 100%;
   }
   .box:last-child {
     margin-right: auto;
